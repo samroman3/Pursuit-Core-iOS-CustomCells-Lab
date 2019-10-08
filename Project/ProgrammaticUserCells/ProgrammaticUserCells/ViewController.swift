@@ -10,6 +10,8 @@ class ViewController: UIViewController {
     
     
     
+    
+    
     lazy var userTableView: UITableView = {
         let theTableView = UITableView()
         theTableView.dataSource = self
@@ -80,7 +82,11 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        let detailVC = UserDetailViewController()
+        self.navigationController?.pushViewController(detailVC, animated: true)
+        }
+    
+    
     }
   
-}
+

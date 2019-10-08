@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		3A536BA7234D036500D8DC39 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A536BA5234D036500D8DC39 /* UserTableViewCell.swift */; };
 		3A536BA8234D036500D8DC39 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A536BA6234D036500D8DC39 /* UserTableViewCell.xib */; };
-		3A536BAA234D0A2600D8DC39 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A536BA9234D0A2600D8DC39 /* DetailViewController.swift */; };
+		3A536BAD234D0BB500D8DC39 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A536BAB234D0BB500D8DC39 /* UserDetailViewController.swift */; };
+		3A536BAE234D0BB500D8DC39 /* UserDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A536BAC234D0BB500D8DC39 /* UserDetailViewController.xib */; };
 		CDA0F5CE2348F74900B2E7F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA0F5CD2348F74900B2E7F0 /* AppDelegate.swift */; };
 		CDA0F5D02348F74900B2E7F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA0F5CF2348F74900B2E7F0 /* SceneDelegate.swift */; };
 		CDA0F5D22348F74900B2E7F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA0F5D12348F74900B2E7F0 /* ViewController.swift */; };
@@ -37,7 +38,8 @@
 /* Begin PBXFileReference section */
 		3A536BA5234D036500D8DC39 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		3A536BA6234D036500D8DC39 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
-		3A536BA9234D0A2600D8DC39 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3A536BAB234D0BB500D8DC39 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		3A536BAC234D0BB500D8DC39 /* UserDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailViewController.xib; sourceTree = "<group>"; };
 		CDA0F5CA2348F74900B2E7F0 /* ProgrammaticUserCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammaticUserCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA0F5CD2348F74900B2E7F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDA0F5CF2348F74900B2E7F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,7 +101,8 @@
 				CDA0F5CD2348F74900B2E7F0 /* AppDelegate.swift */,
 				CDA0F5CF2348F74900B2E7F0 /* SceneDelegate.swift */,
 				CDA0F5D12348F74900B2E7F0 /* ViewController.swift */,
-				3A536BA9234D0A2600D8DC39 /* DetailViewController.swift */,
+				3A536BAB234D0BB500D8DC39 /* UserDetailViewController.swift */,
+				3A536BAC234D0BB500D8DC39 /* UserDetailViewController.xib */,
 				3A536BA5234D036500D8DC39 /* UserTableViewCell.swift */,
 				3A536BA6234D036500D8DC39 /* UserTableViewCell.xib */,
 				CDA0F5EF2348F7E300B2E7F0 /* User.swift */,
@@ -211,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A536BA8234D036500D8DC39 /* UserTableViewCell.xib in Resources */,
+				3A536BAE234D0BB500D8DC39 /* UserDetailViewController.xib in Resources */,
 				CDA0F5F32348FB8200B2E7F0 /* randomUserSampleResponse.json in Resources */,
 				CDA0F5DA2348F74F00B2E7F0 /* LaunchScreen.storyboard in Resources */,
 				CDA0F5D72348F74F00B2E7F0 /* Assets.xcassets in Resources */,
@@ -232,12 +236,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A536BAA234D0A2600D8DC39 /* DetailViewController.swift in Sources */,
 				CDA0F5F02348F7E300B2E7F0 /* User.swift in Sources */,
 				CDA0F5D22348F74900B2E7F0 /* ViewController.swift in Sources */,
 				CDA0F5F52348FE8800B2E7F0 /* AppError.swift in Sources */,
 				CDA0F5CE2348F74900B2E7F0 /* AppDelegate.swift in Sources */,
 				3A536BA7234D036500D8DC39 /* UserTableViewCell.swift in Sources */,
+				3A536BAD234D0BB500D8DC39 /* UserDetailViewController.swift in Sources */,
 				CDA0F5F92348FEB800B2E7F0 /* UsersFetchingService.swift in Sources */,
 				CDA0F5F72348FE9600B2E7F0 /* NetworkHelper.swift in Sources */,
 				CDA0F5D02348F74900B2E7F0 /* SceneDelegate.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  DetailViewController.swift
+//  UserDetailViewController.swift
 //  ProgrammaticUserCells
 //
 //  Created by Sam Roman on 10/8/19.
@@ -8,19 +8,21 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class UserDetailViewController: UIViewController {
     
     
-    lazy var nameLabel: UILabel = {
-        var label = UILabel()
-        return label
-    }()
+    
 
-    lazy var phoneLabel: UILabel = {
-        var label = UILabel()
-        return label
-    }()
-    
+    lazy var nameLabel: UILabel = {
+           var label = UILabel()
+           return label
+       }()
+
+       lazy var phoneLabel: UILabel = {
+           var label = UILabel()
+           return label
+       }()
+       
     
     override func viewDidLoad() {
         
@@ -28,7 +30,7 @@ class DetailViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
+
 
     /*
     // MARK: - Navigation
